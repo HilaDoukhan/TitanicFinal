@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
-public class Utils {
+public class Filter {
     public static int csvNumbers = 0;
     public static ArrayList<Passenger> searchSurvived(ArrayList<Passenger> passengers, int classNumber, String genderData, String wentOnDeck,
                                                       Integer passengerNumberMinData, Integer passengerNumberMaxData, String passengerNameData,

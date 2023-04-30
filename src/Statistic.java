@@ -62,7 +62,7 @@ public class Statistic {
             }
             conclusion+=Constants.PRICE[i]+"-"+ Constants.PRICE[i+1]+" ---> "+String.format("%.2f", (alive/total)*100)+"%. ";
             if(Constants.PRICE[i+1] == Integer.MAX_VALUE){
-                conclusion = conclusion.replaceAll("-2147483647", "+");
+                 conclusion = conclusion.replaceAll("-2147483647", "+");
             }
         }
         return conclusion;

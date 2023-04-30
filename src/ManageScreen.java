@@ -296,7 +296,7 @@ public class ManageScreen extends JPanel {
             this.add(filter);
             filter.addActionListener(e -> {
                 try {
-                    showMessage(Utils.filterButton(passengers, this.classNumber, this.genderData, this.wentOnDeckData,
+                    showMessage(Filter.filterButton(passengers, this.classNumber, this.genderData, this.wentOnDeckData,
                             this.passengerNumberMinData, this.passengerNumberMaxData,
                             passengerNameText.getText(), this.parchAmountData, this.sibSPAmountBoxData, ticketNumberBox.getText(),
                             this.maxTicketPriceData, this.minTicketPriceData, cabinNumberBox.getText(), firstLine));
