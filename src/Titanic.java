@@ -8,7 +8,7 @@ class Titanic extends JFrame {
     }
 
     public Titanic() {
-        JLabel backGround;
+        JLabel backGround;//
         this.setTitle("Titanic Passengers Data");
         this.setLayout(null);
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
